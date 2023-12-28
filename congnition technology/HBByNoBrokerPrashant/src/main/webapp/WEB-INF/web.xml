@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>OwnerRegServ</servlet-name>
+  	<display-name>OwnerRegServ</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.OwnerRegServ</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BuyerRegServ</servlet-name>
+  	<display-name>BuyerRegServ</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.BuyerRegServ</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FlatServ</servlet-name>
+  	<display-name>FlatServ</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.FlatServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>OwnerRegServ</servlet-name>
+  	<url-pattern>/OwnerRegServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BuyerRegServ</servlet-name>
+  	<url-pattern>/BuyerRegServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FlatServ</servlet-name>
+  	<url-pattern>/FlatServ</url-pattern>
+  </servlet-mapping>
+</web-app>
